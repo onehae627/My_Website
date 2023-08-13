@@ -1,0 +1,53 @@
+/* Global */
+
+:root {
+  /* Colors */
+
+  --color-white: #ffffff;
+
+  --color-black: #050a13;
+
+  --color-blue: #03e8f9;
+
+  --color-orange: #fd6413;
+
+  --color-gray: #1b1e26;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+}
+
+button:focus {
+  outline: lpx solid rgb(231, 107, 196);
+}
