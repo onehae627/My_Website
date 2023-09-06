@@ -273,3 +273,17 @@ button:focus {
 .contact__link:hover {
   color: rgb(66, 193, 247);
 }
+
+/* Arrow up */
+.arrow-up {
+  background-color: rgb(66, 193, 247);
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  font-size: 3rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 100%;
+  text-align: center;
+  box-shadow: 5px 5px 0px 0px white;
+}
