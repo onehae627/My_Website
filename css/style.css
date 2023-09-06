@@ -218,3 +218,58 @@ button:focus {
   font-weight: bold;
   margin-bottom: 1rem;
 }
+
+/* Home */
+
+.work {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#works > .work h3 {
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+#works > .work p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+#works > .work button {
+  margin-top: 10px;
+}
+
+#works > .work img {
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  border: 2px solid rgb(66, 193, 247);
+  transform: translateY(-10px);
+}
+
+#works > .work img:hover {
+  opacity: 0.5;
+  transform: translateY(0px);
+}
+
+/* Footer */
+#contact > div > p {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+#contact > div > h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.contact__links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.contact__link:hover {
+  color: rgb(66, 193, 247);
+}
