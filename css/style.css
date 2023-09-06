@@ -42,7 +42,7 @@ a {
 }
 
 button {
-  background-color: pink;
+  background-color: rgb(66, 193, 247);
   font-size: 20px;
   outline: 0;
   padding: 5px;
@@ -56,6 +56,9 @@ button > a {
 
 button:hover {
   background-color: white;
+}
+button:hover a {
+  color: rgb(66, 193, 247);
 }
 button:focus {
   outline: lpx solid rgb(251, 251, 251);
@@ -76,7 +79,7 @@ button:focus {
   font-size: 1.8rem;
 }
 .header__logo__title a:hover {
-  color: pink;
+  color: rgb(66, 193, 247);
 }
 
 /* header menu */
@@ -84,7 +87,11 @@ button:focus {
   display: flex;
   gap: 4px;
 }
-
+.header__menu li {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+}
 .header__menu1 > a {
   background-color: orange;
   border-radius: 20px;
@@ -111,6 +118,46 @@ button:focus {
   color: black;
 }
 
-.header__menu__item.active {
+/* Home */
+
+#home {
+  padding: 5rem 1rem;
+  padding-top: 7rem;
+  text-align: center;
+}
+
+.home__img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 3px solid rgb(66, 193, 247);
+}
+
+#home div > h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+#home div p {
+  font-size: 1.3rem;
+}
+
+.home__strong {
+  color: rgb(66, 193, 247);
+}
+
+.home__contact {
+  display: inline-block;
+  background-color: rgb(66, 193, 247);
+  padding: 0.5rem 1rem;
+  margin: 2rem;
+  font-weight: bold;
   color: black;
+  border-radius: 5px;
+}
+
+.home__contact:hover {
+  background-color: transparent;
+  color: white;
+  outline: 2px solid rgb(66, 193, 247);
 }
