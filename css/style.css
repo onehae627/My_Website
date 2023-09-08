@@ -82,6 +82,7 @@ button:focus {
 
 /* Header */
 .header {
+  background-color: transparent;
   position: fixed;
   width: 100%;
   padding: 1rem;
@@ -89,7 +90,14 @@ button:focus {
   justify-content: space-between;
   /* 수직정렬 */
   align-items: center;
+  z-index: 1;
+  transition: all 300ms ease;
 }
+
+.header--dark {
+  background-color: black;
+}
+
 .header__logo__title {
   font-size: 1.8rem;
 }
