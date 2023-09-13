@@ -3,7 +3,7 @@ const header = document.querySelector(".header");
 const headerHeight = header.getBoundingClientRect().height;
 document.addEventListener("scroll", () => {
   // 스크롤되는 Y좌표가 headerHeight보다 크다면 다른 스타일링
-  console.log(window.scrollY);
+
   if (window.scrollY > headerHeight) {
     header.classList.add("header--dark");
   } else {
@@ -16,6 +16,13 @@ const home = document.querySelector(".home__container");
 const homeHeight = home.getBoundingClientRect().height;
 
 document.addEventListener("scroll", () => {
-  console.log(window.scrollY);
   home.style.opacity = 1 - window.scrollY / homeHeight;
+});
+
+// Arrow up 버튼을 아래로 스크롤시 투명하게 처리함.
+const arrow = document.querySelector(".arrow-up");
+const arrowHeight = home.getBoundingClientRect().height;
+
+document.addEventListener("scroll", () => {
+  arrow.style.opacity = 0 + window.scrollY / arrowHeight;
 });
