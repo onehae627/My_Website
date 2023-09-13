@@ -144,6 +144,7 @@ a {
 }
 
 .header__menu__item {
+  display: block;
   padding: 10px 20px;
 }
 
@@ -325,7 +326,7 @@ a {
     display: none;
     flex-direction: column;
     text-align: center;
-    padding: 1rem 4rem;
+    margin: 1rem 4rem;
     gap: 1rem;
   }
   .header__menu.open {
@@ -396,7 +397,7 @@ a {
     display: none;
     flex-direction: column;
     text-align: center;
-    padding: 1rem 4rem;
+    margin: 1rem 4rem;
     gap: 1rem;
   }
   .header__menu.open {
