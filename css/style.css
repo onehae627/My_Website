@@ -376,6 +376,11 @@ a {
     padding-top: 20px;
     font-size: 13px;
   }
+  .arrow-up {
+    font-size: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
 
 /* 패드 */
